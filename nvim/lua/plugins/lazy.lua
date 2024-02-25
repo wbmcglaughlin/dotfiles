@@ -28,6 +28,18 @@ require('lazy').setup({
     end
   },
   {
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  }
+},
+  {
   "folke/which-key.nvim",
   event = "VeryLazy",
   init = function()
@@ -91,8 +103,7 @@ require('lazy').setup({
     })
     end
   },
-
-  {
+{
     'rmagatti/goto-preview',
     config = function()
       require('goto-preview').setup {
@@ -187,7 +198,6 @@ require('lazy').setup({
 
   'ray-x/go.nvim',
   'ray-x/guihua.lua',
-  { "catppuccin/nvim", as = "catppuccin" },
   {
     "windwp/nvim-autopairs",
       config = function() require("nvim-autopairs").setup {} end

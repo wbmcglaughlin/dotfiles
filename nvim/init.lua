@@ -15,5 +15,4 @@ require('plugins.trouble')
 -- require('plugins.gpt')
 -- require('plugins.nvim-llama')
 require('plugins.zenmode')
-
 -- vim: ts=8 sts=2 sw=2 et
