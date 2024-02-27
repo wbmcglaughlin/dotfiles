@@ -1,10 +1,3 @@
--- ██╗      █████╗ ███████╗██╗   ██╗         Z
--- ██║     ██╔══██╗╚══███╔╝╚██╗ ██╔╝      Z
--- ██║     ███████║  ███╔╝  ╚████╔╝    z
--- ██║     ██╔══██║ ███╔╝    ╚██╔╝   z
--- ███████╗██║  ██║███████╗   ██║
--- ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝
-
 local pluginspath = vim.fn.stdpath("data") .. "/lazy"
 local lazypath = pluginspath .. "/lazy.nvim"
 -- install lazy
@@ -60,6 +53,7 @@ lazy.setup({
 		require("plugins.alpha"),
 		require("plugins.dadbod"),
 		require("plugins.lazygit"),
+		require("plugins.codeium")
 		--require("plugins.copilot"),
 		--require("plugins.mason-dap"),
 		--{ "xero/sourcerer.vim" },
