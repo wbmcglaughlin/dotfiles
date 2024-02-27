@@ -59,6 +59,7 @@ lazy.setup({
 		require("plugins.lush"),
 		require("plugins.alpha"),
 		require("plugins.dadbod"),
+		require("plugins.lazygit"),
 		--require("plugins.copilot"),
 		--require("plugins.mason-dap"),
 		--{ "xero/sourcerer.vim" },

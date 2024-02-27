@@ -1,20 +1,3 @@
---           ██
---          ░░
---  ██    ██ ██ ██████████  ██████  █████
--- ░██   ░██░██░░██░░██░░██░░██░░█ ██░░░██
--- ░░██ ░██ ░██ ░██ ░██ ░██ ░██ ░ ░██  ░░
---  ░░████  ░██ ░██ ░██ ░██ ░██   ░██   ██
---   ░░██   ░██ ███ ░██ ░██░███   ░░█████
---    ░░    ░░ ░░░  ░░  ░░ ░░░     ░░░░░
---
---  ▓▓▓▓▓▓▓▓▓▓
--- ░▓ author ▓ xero <x@xero.style>
--- ░▓ code   ▓ https://code.x-e.ro/dotfiles
--- ░▓ mirror ▓ https://git.io/.files
--- ░▓▓▓▓▓▓▓▓▓▓
--- ░░░░░░░░░░
---
--- show matching brackets/parenthesis
 vim.opt.showmatch = true
 
 -- disable startup message
